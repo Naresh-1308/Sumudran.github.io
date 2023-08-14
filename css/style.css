@@ -266,7 +266,7 @@
     margin-bottom: 30px;
 }
 
-.product-carousel .owl-nav .owl-prev,
+/*.product-carousel .owl-nav .owl-prev,
 .product-carousel .owl-nav .owl-next {
     margin: 0 10px;
     width: 55px;
@@ -280,13 +280,13 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .15);
     font-size: 25px;
     transition: .5s;
-}
+}*/
 
-.product-carousel .owl-nav .owl-prev:hover,
+/*.product-carousel .owl-nav .owl-prev:hover,
 .product-carousel .owl-nav .owl-next:hover {
     background: #FFFFFF;
     color: var(--primary);
-} 
+} */
 
 
 /*** About ***/
@@ -385,6 +385,12 @@
     color: #FFFFFF;
     background: #000000;
     opacity: 1;
+}
+
+/**** Margin ***/
+
+.margin{
+    margin-bottom: 30px;
 }
 
 
