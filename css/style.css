@@ -282,11 +282,11 @@
     transition: .5s;
 }
 
-/*.product-carousel .owl-nav .owl-prev:hover,
+.product-carousel .owl-nav .owl-prev:hover,
 .product-carousel .owl-nav .owl-next:hover {
     background: #FFFFFF;
     color: var(--primary);
-} */
+} 
 
 
 /*** About ***/
