@@ -271,7 +271,7 @@
     margin: 0 10px;
     width: 55px;
     height: 55px;
-    display: none;
+    display: flex;
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
