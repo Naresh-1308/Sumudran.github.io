@@ -200,7 +200,7 @@
 }
 
 .page-header {
-    background: linear-gradient(rgba(255, 183, 40, 0.707), rgba(255, 183, 40, 0.245)), url(../img/index_im01_gl37p.jpg) center center no-repeat;
+    background: linear-gradient(rgba(255, 183, 40, 0.707), rgba(255, 183, 40, 0.245)), url(../img/bank-phrom-Tzm3Oyu_6sk-unsplash.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -212,6 +212,7 @@
 .page-header .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
+    font-weight: bold;
 }
 
 
@@ -392,6 +393,9 @@
     margin-bottom: 30px;
 }
 
+#margin{
+    padding-top: 30px;
+}
 
 /*** Store ***/
 .store-item .store-overlay {
@@ -421,6 +425,10 @@
     border: 20px solid var(--light);
     background: var(--primary);
     border-radius: 50px;
+}
+.thank-you{
+    font-weight: bolder;
+    font-size: large;
 }
 
 
