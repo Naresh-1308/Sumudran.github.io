@@ -393,6 +393,9 @@
     margin-bottom: 30px;
 }
 
+#margin{
+    padding-top: 30px;
+}
 
 /*** Store ***/
 .store-item .store-overlay {
