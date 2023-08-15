@@ -212,6 +212,7 @@
 .page-header .breadcrumb-item a {
     font-size: 18px;
     color: var(--light);
+    font-weight: bold;
 }
 
 
@@ -421,6 +422,10 @@
     border: 20px solid var(--light);
     background: var(--primary);
     border-radius: 50px;
+}
+.thank-you{
+    font-weight: bolder;
+    font-size: large;
 }
 
 
