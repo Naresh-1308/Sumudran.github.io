@@ -523,13 +523,18 @@
 /* sliding the infrastructure */
 
 #slider{
+    height: 100%;
+    margin: auto;
+    position: relative;
+    width: auto;
     display: grid;
+    place-items: center;
     overflow: hidden;
 }
 .slider-track{
     display: flex;
     width: calc(100% * 6);
-    animation: RightToLeft 4s linear infinite;
+    animation: RightToLeft 20s linear infinite;
 }
 
 .slider-track:hover{
