@@ -257,7 +257,7 @@
 /*** Products ***/
 .product {
     background: linear-gradient(rgba(255, 183, 40, 0.245), rgba(255, 183, 40, 0.245)), url(../img/vecteezy_printing-machines-in-production-uv-flatbed-printer-for_8280073_980.jpg) left bottom no-repeat;
-    background-size: 1500px;
+    background-size: 1700px;
 }
 
 .product-carousel .owl-nav {
@@ -528,27 +528,27 @@
     margin: auto;
     position: relative;
     width: auto;
-    display: grid;
+    display: flex;
     place-items: center;
     overflow: hidden;
 }
 .slider-track{
     display: flex;
-    width: calc(100% * 6);
-    animation: RightToLeft 20s linear infinite;
+    /* width: calc(100% * 6); */
+    animation: 10s infra-slide infinite linear;
 }
 
 .slider-track:hover{
     animation-play-state: paused;
 }
 
-@keyframes RightToLeft {
-    0% {
+@keyframes infra-slide {
+    from {
         transform: translateX(0%);
     }
 
-    100% {
-        transform: translateX(-103%);
+    to {
+        transform: translateX(-74%);
         /* transform: translateX(calc(-100% * 12)); */
     }
 }
@@ -564,23 +564,24 @@
 
 .slider::before,
 .slider::after{
-    background: linear-gradient(to right, rgba(255,255,255,1) 0% , rgba(255,255,255,0) 100%);
-    content: '';
+    /* background: linear-gradient(to right, rgba(255,255,255,1) 0% , rgba(255,255,255,0) 100%); */
+    content: "";
     height: 100%;
     position: absolute;
     width: 15%;
     z-index: 2;
+    top: 0;
 }
 
 .slider::before{
     left: 0;
-    top: 0;
+    /* top: 0; */
 }
 
 .slider::after{
     right: 0;
-    top: 0;
-    transform: rotateZ(180deg);
+    /* top: 0; */
+    /* transform: rotateZ(180deg); */
 }
 
 
@@ -641,3 +642,49 @@
     height: 110px;
     margin: 0 40px;
 }
+
+/* infrastructure */
+
+.box {
+    width: 400px;
+    box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    position:relative;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+}
+
+.slide-img {
+    height: 420px;
+}
+
+.slide-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+
+.detail-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.type{
+    display: flex;
+    flex-direction: column;
+}
+
+/* .type h4{
+    padding-left: 75px;
+} */
+
+/* .type span{
+    padding-left: 20px;
+} */
